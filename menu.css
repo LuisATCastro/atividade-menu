@@ -1,4 +1,23 @@
 #navbar{
     overflow: hidden;
-    background-color: #123;
+    background-color: #226347;
+}
+#navbar a{
+    float: left;
+    display: block;
+    color:#2b4dff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.content{
+    padding: 16px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
 }
